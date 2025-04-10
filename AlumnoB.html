@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>
+            Formulario del Alumno B
+        </title>
+    </head>
+    
+    <body>
+        <h1>¡Hola! Soy el Alumno B</h1>
+        <h2>Explorando el mundo de la programación</h2>
+        <img src="https://cdn-icons-png.flaticon.com/512/8093/8093497.png" alt="Imagen de perfil" style="width: 100px; height: auto;">
+        <p>Gracias por visitar mi perfil. Por favor, completa el siguiente formulario para compartir un poco sobre ti.</p>
+        <form action="AlumnoA.html">
+            <label for="nombre">Tu nombre completo:</label> 
+            <br/>
+            <input type="text" name="nombre" id="nombre">
+            <br/>
+            <br/>
+            <label for="correo">Correo electrónico:</label>
+            <br/>
+            <input type="email" name="correo" id="correo">
+            <br/>
+            <br/>
+            <label for="ciudad">Ciudad donde vives:</label>
+            <br/>
+            <input type="text" name="ciudad" id="ciudad">
+            <br/>
+            <br/>
+            ¿Conocías HTML antes de este curso?
+            <br/>
+            <input type="radio" name="html" value="si" id="html-si">
+            <label for="html-si">Sí</label>
+            <br/>
+            <input type="radio" name="html" value="no" id="html-no">
+            <label for="html-no">No</label>
+            <br/>
+            <br/>
+            ¿Qué áreas te interesan más?
+            <br/>
+            <input type="checkbox" name="areas" value="diseno-web" id="diseno-web">
+            <label for="diseno-web">Diseño Web</label>
+            <br/>
+            <input type="checkbox" name="areas" value="front-end" id="front-end">
+            <label for="front-end">Front-End</label>
+            <br/>
+            <input type="checkbox" name="areas" value="back-end" id="back-end">
+            <label for="back-end">Back-End</label>
+            <br/>
+            <br/>
+            <label for="mensaje">Cuéntame algo sobre ti:</label>
+            <br/>
+            <textarea name="mensaje" id="mensajes"></textarea>
+            <br/>
+            <br/>
+            <label for="frecuencia">¿Con qué frecuencia practicas lo aprendido?</label>
+            <br/>
+            <select name="frecuencia" id="frecuencia">
+                <option value="todos-los-dias">Todos los días</option>
+                <option value="varias-veces">Varias veces a la semana</option>
+                <option value="ocasionalmente">Ocasionalmente</option>
+            </select>
+            <br/>
+            <br/>
+            <input type="submit" value="Enviar y ver perfil del Alumno A">
+        </form>
+
+        <p>Alumno B - 2025</p>
+            
+    </body>
+</html>
